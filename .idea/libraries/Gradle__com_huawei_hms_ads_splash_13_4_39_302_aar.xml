@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-splash:13.4.39.302@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/49342ee1a75a9fe0748dd9f620177486/transformed/jetified-ads-splash-13.4.39.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/49342ee1a75a9fe0748dd9f620177486/transformed/jetified-ads-splash-13.4.39.302/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/49342ee1a75a9fe0748dd9f620177486/transformed/jetified-ads-splash-13.4.39.302/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

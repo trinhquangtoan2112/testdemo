@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ads-installreferrer:3.4.39.302@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b79d16fb8a2a1e8271964f631a1ce122/transformed/jetified-ads-installreferrer-3.4.39.302/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/703525c44aadbdfd27a948c1d3773e0b/transformed/jetified-ads-installreferrer-3.4.39.302/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b79d16fb8a2a1e8271964f631a1ce122/transformed/jetified-ads-installreferrer-3.4.39.302/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b79d16fb8a2a1e8271964f631a1ce122/transformed/jetified-ads-installreferrer-3.4.39.302/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b79d16fb8a2a1e8271964f631a1ce122/transformed/jetified-ads-installreferrer-3.4.39.302/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
