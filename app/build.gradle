@@ -16,8 +16,21 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
+
+    signingConfigs {
+        config {
+            keyAlias 'key0'
+            storeFile file('H:\\ANDROID\\testfile2\\testFile.jks')
+            storePassword 'Quangtoan2112'
+            keyPassword 'Quangtoan2112'
+        }
+    }
     buildTypes {
+        debug {
+            signingConfig signingConfigs.config
+        }
         release {
+            signingConfig signingConfigs.config
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -42,8 +55,6 @@ dependencies {
     // For control over item selection of both touch and mouse driven selection
     implementation "androidx.recyclerview:recyclerview-selection:1.1.0"
     implementation 'com.huawei.agconnect:agconnect-core:1.5.2.300'
-    implementation 'com.huawei.hms:ads-identifier:3.4.39.302'
-    implementation 'com.huawei.hms:ads-installreferrer:3.4.39.302'
-    implementation 'com.huawei.hms:ads-lite:13.4.39.302'
     implementation 'com.huawei.hms:scan:1.3.2.300'
+    implementation 'com.huawei.hms:location:5.1.0.301'
 }
