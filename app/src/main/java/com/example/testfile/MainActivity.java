@@ -118,9 +118,6 @@ public class MainActivity extends AppCompatActivity implements OnPDFSelectList {
         return true;
     }
 
-    public boolean onCreateOptionsMenu2(Menu menu){
-        getMenuInflater().inflate(R.menu.menu_layout,menu);
-          return true;
-    }
+
 
 }

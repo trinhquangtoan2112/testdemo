@@ -6,6 +6,7 @@ import android.net.Uri;
 import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
+import com.github.barteksc.pdfviewer.scroll.DefaultScrollHandle;
 
 import java.io.File;
 import java.nio.file.Path;
@@ -23,6 +24,13 @@ public class PDFactivity extends AppCompatActivity {
 
         File file = new File(filePath);
         Uri path = Uri.fromFile(file);
-        pdfView.fromUri(path).load();
+        pdfView.fromUri(path)
+                .defaultPage(0)
+                .enableAnnotationRendering(true)
+                .scrollHandle(new DefaultScrollHandle(this))
+                .spacing(2)
+                .load();
+
+
     }
 }
