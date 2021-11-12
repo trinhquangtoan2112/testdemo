@@ -41,9 +41,6 @@ public class MainActivity extends AppCompatActivity implements OnPDFSelectList {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         runtimePermission();
-
-
-
     }
 
 
@@ -103,7 +100,6 @@ public class MainActivity extends AppCompatActivity implements OnPDFSelectList {
     public void onPDFSelected(File file) {
         startActivity(new Intent(MainActivity.this,PDFactivity.class)
                 .putExtra("path",file.getAbsolutePath()));
-
     }
 
     @Override
@@ -117,6 +113,10 @@ public class MainActivity extends AppCompatActivity implements OnPDFSelectList {
 
         return true;
     }
+
+
+
+
 
 
 

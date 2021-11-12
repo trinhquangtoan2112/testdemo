@@ -16,6 +16,4 @@
        app:actionViewClass="androidx.constraintlayout.utils.widget.ImageFilterView"
        />
 
-
-
 </menu>
